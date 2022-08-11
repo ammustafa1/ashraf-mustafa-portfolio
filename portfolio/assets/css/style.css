@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  margin: 0;
+  margin-top: 2%;
+}
+
+.my-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px;
+  background: #05bbb2;
+  color: #fff;
+}
+
+.header nav {
+  padding-top: 1px;
+  margin-right: 20px;
+  float: inline-end;
+
+}
+
+.card {
+  margin: 5px;
+  border: 2px solid #05bbb2;
+  min-height: 350;
+  max-height: 100%;
+  min-width: 400;
+  max-width: 100%;
+  flex: 1 1 10em;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.card-image {
+  min-height: 100%;
+  max-height: 350px;
+  min-width: 100%;
+  max-width: 400px;
+}
+
+.footer {
+  padding: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+}
+
+.about-me {
+  padding: 30px;
+  clear: both;
+  text-align: left
+}
+
+@media screen and (min-width:600px) {
+  section {
+    flex-direction: row;
+  }
+}
